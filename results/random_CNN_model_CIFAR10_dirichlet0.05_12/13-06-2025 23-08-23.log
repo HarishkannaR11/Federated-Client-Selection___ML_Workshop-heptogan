@@ -1,0 +1,26 @@
+23:08:23,900 test INFO === EXPERIMENT CONFIGURATION ===
+23:08:23,900 test INFO ML_config:
+23:08:23,900 test INFO   model_args: {'num_classes': 10}
+23:08:23,900 test INFO   train_config: {'epochs': 3, 'lr': 0.0001, 'train_bs': 16}
+23:08:23,900 test INFO   test_config: {'test_bs': 64}
+23:08:23,900 test INFO   initial_model_path: initial_models
+23:08:23,900 test INFO   dataset_dir: C:\Users\pinky\Downloads\ACM_Workshop_SYSML-main (1)\ACM_Workshop_SYSML-main\data
+23:08:23,900 test INFO   dataset_id: CIFAR10_dirichlet0.05_12
+23:08:23,900 test INFO   model_file_path: C:\Users\pinky\Downloads\ACM_Workshop_SYSML-main (1)\ACM_Workshop_SYSML-main\models\CNN.py
+23:08:23,900 test INFO   model_id: CNN_model
+23:08:23,900 test INFO FL_config:
+23:08:23,900 test INFO   Agg_algo: fedavg
+23:08:23,900 test INFO   Agg_args: None
+23:08:23,900 test INFO   CS_algo: random
+23:08:23,900 test INFO   CS_args: None
+23:08:23,900 test INFO   clients_per_round: 3
+23:08:23,900 test INFO   total_num_clients: 12
+23:08:23,900 test INFO   total_rounds: 100
+23:08:23,900 test INFO client_config:
+23:08:23,900 test INFO   minibatch_time: 0
+23:08:23,900 test INFO server_config:
+23:08:23,900 test INFO   test_bs: 64
+23:08:23,900 test INFO   seed: 1201
+23:08:23,900 test INFO   use_gpu: False
+23:08:23,900 test INFO   save_path: ../results
+23:08:23,900 test INFO =============================
